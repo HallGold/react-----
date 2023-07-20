@@ -1,0 +1,27 @@
+.safe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 8px;
+}
+.safe-item {
+  flex: 1;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #333333;
+}
+
+.safe-text {
+  font-size: 12px;
+  min-width: 70px;
+  text-align: center;
+}
+.High {
+  color: #ea5455;
+}
+.average {
+  color: #ff9f43;
+}
+.Secure {
+  color: #28c76f;
+}
